@@ -1,6 +1,6 @@
 use std::{
     sync::{mpsc, Arc, Mutex},
-    thread::{self, JoinHandle},
+    thread::{self},
 };
 
 pub struct ThreadPool {
